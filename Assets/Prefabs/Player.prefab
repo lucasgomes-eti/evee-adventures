@@ -100,7 +100,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 0}
   speed: 6
-  jumpHeight: 1
+  gravitySpeed: 14
+  jumpHeight: 3.5
   whatIsGround:
     serializedVersion: 2
     m_Bits: 8
@@ -124,7 +125,8 @@ MonoBehaviour:
     m_Bits: 256
   attackDistance: 1.5
   damage: 10
-  lives: 3
+  livesText: {fileID: 0}
+  scoreText: {fileID: 0}
 --- !u!143 &643781716888256308
 CharacterController:
   m_ObjectHideFlags: 0
